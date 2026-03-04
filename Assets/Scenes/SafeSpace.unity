@@ -1749,7 +1749,7 @@ Terrain:
   m_TreeBillboardDistance: 2000
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 50
+  m_DetailObjectDistance: 93
   m_DetailObjectDensity: 0.85
   m_HeightmapPixelError: 8
   m_SplatMapDistance: 1000
@@ -2550,7 +2550,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 14.3010435
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25

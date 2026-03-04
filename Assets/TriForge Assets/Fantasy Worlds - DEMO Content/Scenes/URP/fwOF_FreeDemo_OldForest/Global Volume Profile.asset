@@ -21,16 +21,16 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.65
+    m_Value: 0.6
   scatter:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.665
   clamp:
     m_OverrideState: 1
     m_Value: 65472
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.9245283, g: 0.699759, b: 0.3532396, a: 1}
+    m_Value: {r: 0.9150943, g: 0.8287647, b: 0.60862404, a: 1}
   highQualityFiltering:
     m_OverrideState: 1
     m_Value: 0
@@ -65,19 +65,19 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -0.13
   contrast:
     m_OverrideState: 1
-    m_Value: -7.6
+    m_Value: 74.1
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.98045033, b: 0.9575472, a: 1}
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
     m_OverrideState: 1
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: 21
+    m_Value: -4.5
 --- !u!114 &-598131194079135084
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5485954d14dfb9a4c8ead8edb0ded5b1, type: 3}
   m_Name: LiftGammaGain
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   lift:
     m_OverrideState: 1
     m_Value: {x: 0.97914755, y: 0.9944583, z: 1, w: 0}
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221518ef91623a7438a71fef23660601, type: 3}
   m_Name: WhiteBalance
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   temperature:
     m_OverrideState: 0
     m_Value: -100
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558a8e2b6826cf840aae193990ba9f2e, type: 3}
   m_Name: ShadowsMidtonesHighlights
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   shadows:
     m_OverrideState: 1
     m_Value: {x: 0.82699233, y: 0.90411574, z: 1, w: 0}
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
   m_Name: Tonemapping
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   mode:
     m_OverrideState: 1
     m_Value: 2
