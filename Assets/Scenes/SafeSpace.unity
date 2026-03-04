@@ -363,6 +363,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1874f66e0ad8f2340b08fcc04caa280e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: daad5189b3e7e9b4ca9c6a2e954909aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1874f66e0ad8f2340b08fcc04caa280e, type: 3}
       propertyPath: m_Name
       value: BigRock
@@ -435,7 +439,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2705717103316485334, guid: cd087854683b2c6459395826b736bbc8, type: 3}
+  - {fileID: 2100000, guid: 3d1a41df4423d884c866c78694b2f741, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -727,7 +731,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2705717103316485334, guid: cd087854683b2c6459395826b736bbc8, type: 3}
+  - {fileID: 2100000, guid: 3d1a41df4423d884c866c78694b2f741, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -833,7 +837,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2705717103316485334, guid: cd087854683b2c6459395826b736bbc8, type: 3}
+  - {fileID: 2100000, guid: 3d1a41df4423d884c866c78694b2f741, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1248,11 +1252,6 @@ Transform:
   - {fileID: 338820103}
   m_Father: {fileID: 1891590983}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &765850649 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fc7e2a4cd6fdd5f45bc8164b15dc74a4, type: 3}
-  m_PrefabInstance: {fileID: 1253935733}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &780301738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,7 +2499,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 765850649}
+  - {fileID: 543450652446092702}
   - {fileID: 1096754287}
   - {fileID: 508941064}
   m_Father: {fileID: 0}
@@ -2814,6 +2813,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1874f66e0ad8f2340b08fcc04caa280e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: daad5189b3e7e9b4ca9c6a2e954909aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1874f66e0ad8f2340b08fcc04caa280e, type: 3}
       propertyPath: m_Name
       value: SmallRock
@@ -2986,6 +2989,11 @@ Transform:
   - {fileID: 1150435608}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &543450652446092702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fc7e2a4cd6fdd5f45bc8164b15dc74a4, type: 3}
+  m_PrefabInstance: {fileID: 1253935733}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1644885333901321119
 PrefabInstance:
   m_ObjectHideFlags: 0
