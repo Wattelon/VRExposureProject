@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3343bbb1-6a85-47ea-8fde-bafdf36e0c23" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Models/LowPolyTree/Textures/LowPolyTree.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/LowPolyTree/Textures/LowPolyTree.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Terrain/Tree 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Terrain/Tree 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Terrain/Tree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Terrain/Tree.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Safe Space/Deer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Safe Space/Deer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TriForge Assets/Fantasy Worlds - DEMO Content/Scenes/URP/fwOF_FreeDemo_OldForest/New Terrain 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TriForge Assets/Fantasy Worlds - DEMO Content/Scenes/URP/fwOF_FreeDemo_OldForest/New Terrain 1.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "safe-space-scene",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+</project>
