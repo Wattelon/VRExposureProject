@@ -12,9 +12,15 @@ public class BreathingTargets : MonoBehaviour
     public float holdTime = 7f;
     public float exhaleTime = 8f;
 
-    [Header("Scale")]
+    [Header("Scale multipliers")]
     public float scaleMultiplierMin = 1f;
     public float scaleMultiplierMax = 1.5f;
+
+    [Tooltip("Насколько уменьшится на задержке")]
+    public float holdDipMultiplier = 0.97f;
+
+    [Tooltip("За сколько секунд сделать небольшое уменьшение на задержке")]
+    public float holdDipTime = 0.6f;
 
     Vector3 innerBaseScale;
     Vector3 glowBaseScale;
@@ -34,17 +40,34 @@ public class BreathingTargets : MonoBehaviour
     {
         while (true)
         {
+            // ВДОХ: min -> max
             yield return ScaleBoth(scaleMultiplierMin, scaleMultiplierMax, inhaleTime);
-            
-            ApplyMultiplier(scaleMultiplierMax);
-            yield return new WaitForSeconds(holdTime);
-            
-            yield return ScaleBoth(scaleMultiplierMax, scaleMultiplierMin, exhaleTime);
+
+            // ЗАДЕРЖКА: чуть-чуть "осесть" и держать
+            float holdTarget = scaleMultiplierMax * holdDipMultiplier;
+            float dipT = Mathf.Min(holdDipTime, holdTime);
+            yield return ScaleBoth(scaleMultiplierMax, holdTarget, dipT);
+
+            float remainHold = holdTime - dipT;
+            if (remainHold > 0f)
+            {
+                ApplyMultiplier(holdTarget);
+                yield return new WaitForSeconds(remainHold);
+            }
+
+            // ВЫДОХ: holdTarget -> min
+            yield return ScaleBoth(holdTarget, scaleMultiplierMin, exhaleTime);
         }
     }
 
     IEnumerator ScaleBoth(float from, float to, float duration)
     {
+        if (duration <= 0f)
+        {
+            ApplyMultiplier(to);
+            yield break;
+        }
+
         float t = 0f;
         while (t < duration)
         {
