@@ -6,8 +6,8 @@ namespace ModularScene
     [Serializable]
     public class ModularSceneSettings
     {
-        public Dictionary<SceneGameObjectModule, bool> SceneGameObjectModules = new();
-        public Dictionary<SceneDetailsModule, bool> SceneDetailsModules = new();
-        public bool TreesModule;
+        public List<bool> SceneGameObjectModules;
+        public bool SafeSpaceSceneModule = true;
+        public bool TreesModule = true;
     }
 }
