@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using Random = System.Random;
 
 namespace ModularScene
 {
@@ -13,17 +12,7 @@ namespace ModularScene
 
         private void Start()
         {
-            var random = new Random();
-            var settings = new ModularSceneSettings();//ModularSceneSettingsManager.Load();
-            foreach (var sceneGameObjectModule in Enum.GetValues(typeof(SceneGameObjectModule)))
-            {
-                settings.SceneGameObjectModules.Add((SceneGameObjectModule)sceneGameObjectModule, random.Next(2) == 1);
-            }
-            foreach (var sceneDetailsModule in Enum.GetValues(typeof(SceneDetailsModule)))
-            {
-                settings.SceneDetailsModules.Add((SceneDetailsModule)sceneDetailsModule, random.Next(2) == 1);
-            }
-            settings.TreesModule = random.Next(2) == 1;
+            var settings = ModularSceneSettingsManager.Load();
             
             
             for (var i = 0; i < sceneGameObjectsModules.Count; i++)
