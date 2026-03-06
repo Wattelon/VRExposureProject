@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -34,9 +35,9 @@ namespace ModularScene
             safeSpaceSceneToggle.isOn = settings.SafeSpaceSceneModule;
             treesToggle.isOn = settings.TreesModule;
 
-            foreach (var gameObjectModule in settings.SceneGameObjectModules)
+            for (var i = 0; i < settings.SceneGameObjectModules.Count; i++)
             {
-                gameObjectModulesToggles[(int)gameObjectModule.Key].isOn = gameObjectModule.Value;
+                gameObjectModulesToggles[i].isOn = settings.SceneGameObjectModules[i];
             }
         }
 
@@ -44,15 +45,11 @@ namespace ModularScene
         {
             var settings = new ModularSceneSettings
             {
+                SceneGameObjectModules = gameObjectModulesToggles.Select(toggle => toggle.isOn).ToList(),
                 SafeSpaceSceneModule = safeSpaceSceneToggle.isOn,
                 TreesModule = treesToggle.isOn
             };
 
-            for (var i = 0; i < gameObjectModulesToggles.Count; i++)
-            {
-                settings.SceneGameObjectModules.Add((SceneGameObjectModule)i, gameObjectModulesToggles[i].isOn);
-            }
-            
             ModularSceneSettingsManager.Save(settings);
             SceneManager.LoadScene("SafeSpace");
         }
