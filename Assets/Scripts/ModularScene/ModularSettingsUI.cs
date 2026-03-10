@@ -21,13 +21,13 @@ namespace ModularScene
         private void OnEnable()
         {
             confirmButton.onClick.AddListener(OnConfirmButtonClicked);
-            safeSpaceSceneToggle.onValueChanged.AddListener(OnSafeSpaceSceneToggleValueChanged);
+            //safeSpaceSceneToggle.onValueChanged.AddListener(OnSafeSpaceSceneToggleValueChanged);
         }
 
         private void OnDisable()
         {
             confirmButton.onClick.RemoveListener(OnConfirmButtonClicked);
-            safeSpaceSceneToggle.onValueChanged.RemoveListener(OnSafeSpaceSceneToggleValueChanged);
+            //safeSpaceSceneToggle.onValueChanged.RemoveListener(OnSafeSpaceSceneToggleValueChanged);
         }
 
         private void LoadPreviousSettings()
