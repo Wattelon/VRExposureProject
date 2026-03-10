@@ -77,11 +77,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d3b17db1d342e34b9cbee5482bedd42, type: 3}
---- !u!23 &4975775324051944593 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 2d3b17db1d342e34b9cbee5482bedd42, type: 3}
-  m_PrefabInstance: {fileID: 5966166604615493653}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6144789609073790974 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2d3b17db1d342e34b9cbee5482bedd42, type: 3}
@@ -97,15 +92,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ef0bf223054d3a14192bcdfb20b58e93, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 84.149605
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef0bf223054d3a14192bcdfb20b58e93, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.118508
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef0bf223054d3a14192bcdfb20b58e93, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 78.39835
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef0bf223054d3a14192bcdfb20b58e93, type: 3}
       propertyPath: m_LocalRotation.w
@@ -193,20 +188,19 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.03267287
+  - screenRelativeHeight: 0.01
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 9084447453318672604}
     - renderer: {fileID: 247444631553583}
-  - screenRelativeHeight: 0.02566678
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 4975775324051944593}
   - screenRelativeHeight: 0
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2750752832483663141}
     - renderer: {fileID: 6567238257109667455}
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
   m_Enabled: 1
 --- !u!4 &7951487838336125875 stripped
 Transform:

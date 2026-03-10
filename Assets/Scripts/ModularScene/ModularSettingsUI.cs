@@ -21,11 +21,13 @@ namespace ModularScene
         private void OnEnable()
         {
             confirmButton.onClick.AddListener(OnConfirmButtonClicked);
+            safeSpaceSceneToggle.onValueChanged.AddListener(OnSafeSpaceSceneToggleValueChanged);
         }
 
         private void OnDisable()
         {
             confirmButton.onClick.RemoveListener(OnConfirmButtonClicked);
+            safeSpaceSceneToggle.onValueChanged.RemoveListener(OnSafeSpaceSceneToggleValueChanged);
         }
 
         private void LoadPreviousSettings()
@@ -49,9 +51,18 @@ namespace ModularScene
                 SafeSpaceSceneModule = safeSpaceSceneToggle.isOn,
                 TreesModule = treesToggle.isOn
             };
-
+            
             ModularSceneSettingsManager.Save(settings);
             SceneManager.LoadScene("SafeSpace");
+        }
+        
+        private void OnSafeSpaceSceneToggleValueChanged(bool isOn)
+        {
+            foreach (var toggle in gameObjectModulesToggles)
+            {
+                toggle.interactable = isOn;
+            }
+            treesToggle.interactable = isOn;
         }
     }
 }
