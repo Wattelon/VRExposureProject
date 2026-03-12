@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207075872}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.754525, z: -0, w: -0.6562713}
-  m_LocalPosition: {x: 2.8, y: 0, z: 0.38}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 262.03198, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &207075876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -401,7 +401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6430044770364145067, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6430044770364145067, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -433,80 +433,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6926906167359508983, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
       propertyPath: m_Name
-      value: Sphere
-      objectReference: {fileID: 0}
-    - target: {fileID: 7959827481973056933, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7960518322117875107, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-      propertyPath: SizeModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8187735510357336167, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-      propertyPath: SizeModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8187735510357336167, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-      propertyPath: InitialModule.maxNumParticles
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8187735510357336167, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8187735510357336167, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8942686579639073417, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      value: BreathingPractice
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6926906167359508983, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1612954489}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
---- !u!1 &1612954480 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6926906167359508983, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-  m_PrefabInstance: {fileID: 1612954479}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1612954481 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3750755480272690402, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-  m_PrefabInstance: {fileID: 1612954479}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1612954482 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 749050004904159082, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
-  m_PrefabInstance: {fileID: 1612954479}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1612954489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612954480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42df0dcbabadcfb45a149e00182727c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BreathingTargets
-  innerPat: {fileID: 1612954482}
-  glow: {fileID: 1612954481}
-  inhaleTime: 4
-  holdTime: 7
-  exhaleTime: 8
-  scaleMultiplierMin: 1
-  scaleMultiplierMax: 1.5
-  holdDipMultiplier: 0.97
-  holdDipTime: 0.6
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
