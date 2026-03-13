@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class BreathingPractice : MonoBehaviour
@@ -18,6 +17,7 @@ public class BreathingPractice : MonoBehaviour
     private void OnDisable()
     {
         _currentDelay = 0;
+        breathingSphere.localScale = Vector3.one * breathingCurve.Evaluate(0);
     }
 
     private void Update()

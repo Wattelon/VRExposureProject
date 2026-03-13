@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -7,7 +5,6 @@ using UnityEngine.SceneManagement;
 public class PanicButton : MonoBehaviour
 {
     [SerializeField] private InputAction panicAction;
-    [SerializeField] private List<GameObject> meditations;
     
     private const string ModularSceneName = "ModularSettings";
     private const string SafeSpaceSceneName = "SafeSpace";
@@ -39,11 +36,7 @@ public class PanicButton : MonoBehaviour
     private void OnPanicButtonClicked(InputAction.CallbackContext context)
     {
         if (SceneManager.GetActiveScene().name == ModularSceneName) return;
-        if (SceneManager.GetActiveScene().name == SafeSpaceSceneName)
-        {
-            if (meditations.Any(meditation => meditation.activeSelf)) meditations.ForEach(meditation => meditation.SetActive(false));
-            else SceneManager.LoadScene(ModularSceneName);
-        }
+        if (SceneManager.GetActiveScene().name == SafeSpaceSceneName) SceneManager.LoadScene(ModularSceneName);
         else SceneManager.LoadScene(SafeSpaceSceneName);
     }
 }
