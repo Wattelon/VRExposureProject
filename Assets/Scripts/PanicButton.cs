@@ -7,6 +7,19 @@ public class PanicButton : MonoBehaviour
     [SerializeField] private InputAction panicAction;
     
     private const string ModularSceneName = "ModularSettings";
+    private const string SafeSpaceSceneName = "SafeSpace";
+
+    private static PanicButton _instance;
+    
+    private void Awake()
+    {
+        if (_instance is null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else Destroy(gameObject);
+    }
 
     private void OnEnable()
     {
@@ -22,6 +35,8 @@ public class PanicButton : MonoBehaviour
     
     private void OnPanicButtonClicked(InputAction.CallbackContext context)
     {
-        SceneManager.LoadScene(ModularSceneName);
+        if (SceneManager.GetActiveScene().name == ModularSceneName) return;
+        if (SceneManager.GetActiveScene().name == SafeSpaceSceneName) SceneManager.LoadScene(ModularSceneName);
+        else SceneManager.LoadScene(SafeSpaceSceneName);
     }
 }
