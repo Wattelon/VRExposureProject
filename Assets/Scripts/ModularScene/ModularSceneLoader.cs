@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 
 namespace ModularScene
 {
@@ -9,7 +8,6 @@ namespace ModularScene
     {
         [SerializeField] private List<GameObject> sceneGameObjectsModules;
         [SerializeField] private Terrain terrain;
-        [SerializeField] private Camera centerCamera;
 
         private void Start()
         {
@@ -20,8 +18,6 @@ namespace ModularScene
                 sceneGameObjectsModules[i].SetActive(settings.SceneGameObjectModules[i]);
             }
 
-            centerCamera.GetUniversalAdditionalCameraData().renderPostProcessing = settings.SafeSpaceSceneModule;
-            
             if (settings.TreesModule) return;
             terrain.terrainData = Instantiate(terrain.terrainData);
             terrain.terrainData.SetTreeInstances(Array.Empty<TreeInstance>(), false);

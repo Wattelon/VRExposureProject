@@ -2,15 +2,8 @@ namespace ModularScene
 {
     public enum SceneGameObjectModule
     {
-        House,
-        Picnic,
-        Deer,
-        Rabbits,
-        Butterflies,
+        HousePicnic,
+        WildAnimals,
         Water,
-    }
-
-    public enum SceneDetailsModule
-    {
     }
 }
