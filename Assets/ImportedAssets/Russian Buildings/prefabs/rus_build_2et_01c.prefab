@@ -100,7 +100,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4391732829057842}
   - component: {fileID: 205138082057199738}
-  - component: {fileID: 64518821971062460}
   - component: {fileID: 65271007287358664}
   - component: {fileID: 65901895636178518}
   - component: {fileID: 65533817941757344}
@@ -145,42 +144,20 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.9533439
+  - screenRelativeHeight: 0.15
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23657246157145100}
     - renderer: {fileID: 0}
-  - screenRelativeHeight: 0.29684487
+  - screenRelativeHeight: 0.075
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23352021606006844}
-  - screenRelativeHeight: 0.048382718
+  - screenRelativeHeight: 0.01
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23829663545000836}
-  m_Enabled: 0
---- !u!64 &64518821971062460
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334856565783354}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: b6239b2aa98add74298b494b5e04d79f, type: 3}
 --- !u!65 &65271007287358664
 BoxCollider:
   m_ObjectHideFlags: 0
