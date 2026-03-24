@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3343bbb1-6a85-47ea-8fde-bafdf36e0c23" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VRExposureProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VRExposureProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="3343bbb1-6a85-47ea-8fde-bafdf36e0c23" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +83,7 @@
       <workItem from="1772786243785" duration="3086000" />
       <workItem from="1773146842951" duration="817000" />
       <workItem from="1774272623523" duration="971000" />
-      <workItem from="1774347010454" duration="358000" />
+      <workItem from="1774347010454" duration="686000" />
     </task>
     <servers />
   </component>
