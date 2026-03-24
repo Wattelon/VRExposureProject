@@ -96,7 +96,7 @@ public class SkyscrapersAudioController : MonoBehaviour
             AudioClip[] clips = null;
             if (surfacePhysicsMaterial == concretePhysicsMaterial)
                 clips = concreteStepClips;
-            if (surfacePhysicsMaterial == glassPhysicsMaterial)
+            else if (surfacePhysicsMaterial == glassPhysicsMaterial)
                 clips = glassStepClips;
 
             stepsSource.pitch = UnityEngine.Random.Range(0.8f, 1.2f);

@@ -167,7 +167,7 @@ MonoBehaviour:
     m_Value: 200
   bottomAltitude:
     m_OverrideState: 1
-    m_Value: 500
+    m_Value: 1000
   altitudeRange:
     m_OverrideState: 1
     m_Value: 2000
@@ -179,7 +179,7 @@ MonoBehaviour:
     m_Value: 0
   globalSpeed:
     m_OverrideState: 1
-    m_Value: 300
+    m_Value: 500
   globalOrientation:
     m_OverrideState: 0
     m_Value: 0
