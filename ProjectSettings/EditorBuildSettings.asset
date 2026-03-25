@@ -5,15 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ModularSettings.unity
     guid: 8b39139cbc0798c47848c505ed5be0b4
   - enabled: 1
     path: Assets/Scenes/SafeSpace.unity
-    guid: 176de898acc782147b26010e919a92f0
-  - enabled: 1
-    path: Assets/Scenes/ExposureNyctophobia.unity
-    guid: 06c5b84e0ef880242b5ec9ee35f90c76
+    guid: 807c44637baf25c4cac4a09f1aaed255
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 598825bc0b5568544a8c25f1b687b3a0, type: 2}
