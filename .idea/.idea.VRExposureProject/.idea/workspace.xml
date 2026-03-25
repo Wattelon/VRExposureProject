@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3343bbb1-6a85-47ea-8fde-bafdf36e0c23" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene_Summer_URP_With_Sounds.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DemoScene_Summer_URP_With_Sounds.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VRExposureProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VRExposureProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SafeSpace/Deer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SafeSpace/Deer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SafeSpace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SafeSpace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ModularScene/SceneModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ModularScene/SceneModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/ThumbnailClaustrophobia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/ThumbnailClaustrophobia.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXRPackageSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXRPackageSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "safe-space-add-sounds",
+    "git-widget-placeholder": "linking-scenes-together",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -58,6 +70,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -68,6 +83,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -86,6 +104,7 @@
       <workItem from="1773146842951" duration="817000" />
       <workItem from="1774272623523" duration="971000" />
       <workItem from="1774347010454" duration="1491000" />
+      <workItem from="1774460637338" duration="483000" />
     </task>
     <servers />
   </component>

@@ -5,5 +5,6 @@ namespace ModularScene
         HousePicnic,
         WildAnimals,
         Water,
+        Trees,
     }
 }
