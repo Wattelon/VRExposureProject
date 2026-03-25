@@ -12,6 +12,10 @@ TagManager:
   - QDSUISection
   - QDSUIPrimaryButton
   - QDSUITextInvertedColor
+  - QDSUISecondaryButton
+  - QDSUIIcon
+  - QDSUIToggleButton
+  - QDSUITextSecondaryInvertedColor
   layers:
   - Default
   - TransparentFX
