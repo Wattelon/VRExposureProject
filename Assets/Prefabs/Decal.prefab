@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6712671628559877930}
   - component: {fileID: 5271522142479040358}
   m_Layer: 0
-  m_Name: Plane (7)
+  m_Name: Decal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
