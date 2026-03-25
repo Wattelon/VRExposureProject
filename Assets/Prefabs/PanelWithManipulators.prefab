@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 826618371636800330}
   - component: {fileID: 3071362075783773732}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: scale_affordance_opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 725278033861247257}
   - component: {fileID: 7171764535097105323}
   - component: {fileID: 1624465691330993432}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PanelVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9196995253960765569}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 7297805744651613776}
   - component: {fileID: 7755183058943330620}
   - component: {fileID: 6028288142767427067}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PanelInteractable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,7 +488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8580337645494836730}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1893311671661001608}
   - component: {fileID: 6941687788410982366}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: scale_affordance_opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 6923734220639632159}
   - component: {fileID: 718365567990310936}
   - component: {fileID: 7491817131827818480}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 1788243882253859909}
   - component: {fileID: 6821412675901220674}
   - component: {fileID: 7704975733818560241}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: scale_affordance_geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -736,7 +736,7 @@ GameObject:
   - component: {fileID: 7286991210466241328}
   - component: {fileID: 922879342489647159}
   - component: {fileID: 7119869464681873375}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4604551928782560472}
   - component: {fileID: 858295818281038814}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: skinned_rounded_rectangle_opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 1299167421830431469}
   - component: {fileID: 2696750237853466750}
   - component: {fileID: 4312534198941788385}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: scale_affordance_geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -951,7 +951,7 @@ GameObject:
   - component: {fileID: 1671131856520450754}
   - component: {fileID: 3900105464920794316}
   - component: {fileID: 248255309023296332}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: scale_affordance_geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 8067662517600310680}
   - component: {fileID: 439160793768068767}
   - component: {fileID: 7500837792402129271}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,7 +1109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2887100817527905345}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1141,7 +1141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2725540670565825194}
   - component: {fileID: 1004414636399014922}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AnchorCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1185,7 +1185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6028011848650400756}
   - component: {fileID: 8486990151350068572}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AnchorTopLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1229,7 +1229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2343935411283750911}
   - component: {fileID: 6207403032683078866}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PanelBorderHandleAffordance (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1285,7 +1285,7 @@ GameObject:
   - component: {fileID: 3256117851763855267}
   - component: {fileID: 22277217160299427}
   - component: {fileID: 2230601843046102418}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: scale_affordance_geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,7 +1353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1346352817505665296}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1386,7 +1386,7 @@ GameObject:
   - component: {fileID: 6491670487024543358}
   - component: {fileID: 3745066155038209401}
   - component: {fileID: 6771522138487960209}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1474,7 +1474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1081413021998596174}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1506,7 +1506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4857236710543586390}
   - component: {fileID: 9100198400254058189}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AnchorBottomRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1549,7 +1549,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 679243932408937771}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1581,7 +1581,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5422222340411602209}
   - component: {fileID: 2058264996959722643}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: scale_affordance_opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1636,7 +1636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9090655435056767839}
   - component: {fileID: 2938407269129440727}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AnchorTopRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1681,7 +1681,7 @@ GameObject:
   - component: {fileID: 6810221666402882945}
   - component: {fileID: 6300239997087639387}
   - component: {fileID: 3029866607647373476}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1906,7 +1906,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3489072346201784984}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1937,7 +1937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4604206103672811242}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1969,7 +1969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4868016993338579034}
   - component: {fileID: 500881978398777573}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: scale_affordance_opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2024,7 +2024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1002443365531634498}
   - component: {fileID: 7876460100867697054}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PanelBorderHandleAffordance (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2089,7 +2089,7 @@ GameObject:
   - component: {fileID: 8179291316564608077}
   - component: {fileID: 3806655799698913258}
   - component: {fileID: 7406897074608697906}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScalerTopLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2431,7 +2431,7 @@ GameObject:
   - component: {fileID: 8038702100154853265}
   - component: {fileID: 7860008448811873932}
   - component: {fileID: 1041891692495171516}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScalerTopRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2773,7 +2773,7 @@ GameObject:
   - component: {fileID: 1788379752299262796}
   - component: {fileID: 351291541741304717}
   - component: {fileID: 6590391896169669105}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScalerBottomRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3104,7 +3104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5949587552056431493}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ul_anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3146,7 +3146,7 @@ GameObject:
   - component: {fileID: 8861975857970758697}
   - component: {fileID: 628821812278196406}
   - component: {fileID: 8606092243888470295}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScalerBottomLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3723,7 +3723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3376491245619068456}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: opacity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3755,7 +3755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7677856436967682397}
   - component: {fileID: 2334889815892895401}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PanelBorderHandleAffordance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3810,7 +3810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1312668880398728018}
   - component: {fileID: 523573523263302231}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PanelBorderHandleAffordance (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3865,7 +3865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3792201369273974851}
   - component: {fileID: 7131927135309994705}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: AnchorBottomLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3963,6 +3963,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8627396676432453327, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7800965221835361006, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7290764768130736925, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -6228833744052636064, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: -5401271877751119579, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_AABB.m_Extent.x
       value: 100
@@ -3991,9 +4007,29 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2653669481416459777, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2113802692603631217, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -1684543897826104800, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 176915482756326532, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_Name
       value: skinned_rounded_rectangle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1980960758582919647, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4019,6 +4055,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5682472876988596086, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6513762932657452581, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.019999992
@@ -4030,6 +4070,10 @@ PrefabInstance:
     - target: {fileID: 6513762932657452581, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036213049465896255, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8879528566716807029, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_LocalRotation.w
