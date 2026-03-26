@@ -7,6 +7,6 @@ public class ExposureFinish : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(SafeSpaceSceneName);
+        SceneTransitionManager.Instance.TransitionToScene(SafeSpaceSceneName);
     }
 }
