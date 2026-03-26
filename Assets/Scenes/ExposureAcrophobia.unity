@@ -206607,7 +206607,7 @@ MonoBehaviour:
   normalWindVolume: 0.75
   strongWind: {fileID: 1379466797}
   strongWindVolume: 0.9
-  showGizmos: 0
+  showGizmos: 1
   minDistance: 75
   maxDistance: 100
   stepsSource: {fileID: 1379466802}
