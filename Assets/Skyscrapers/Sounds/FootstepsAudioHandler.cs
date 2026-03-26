@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -34,19 +33,18 @@ public class FootstepsAudioHandler : MonoBehaviour
 
         if (distanceTravelled < stepDistance) return;
 
-        PlayFootstep(raycastLength);
+        PlayFootstep();
         distanceTravelled = 0;
     }
 
-    private void PlayFootstep(float raycastLength)
+    private void PlayFootstep()
     {
-        RaycastHit hit;
-        Vector3 rayStart = transform.position + Vector3.up * 0.5f;
+        var rayStart = transform.position + Vector3.up * 0.5f;
         Debug.DrawRay(rayStart, Vector3.down * raycastLength, Color.red, 1f);
 
-        if (Physics.Raycast(rayStart, Vector3.down, out hit, raycastLength))
+        if (Physics.Raycast(rayStart, Vector3.down, out var hit, raycastLength))
         {
-            PhysicsMaterial surfaceMat = hit.collider.sharedMaterial;
+            var surfaceMat = hit.collider.sharedMaterial;
             if (surfaceMat == null) return;
 
             AudioClip[] clips = null;
@@ -60,8 +58,8 @@ public class FootstepsAudioHandler : MonoBehaviour
             }
             if (clips == null || clips.Length == 0) return;
 
-            audioSource.pitch = UnityEngine.Random.Range(1f - pitchVariation / 2, 1f + pitchVariation / 2);
-            audioSource.PlayOneShot(clips[UnityEngine.Random.Range(0, clips.Length)]);
+            audioSource.pitch = Random.Range(1f - pitchVariation / 2, 1f + pitchVariation / 2);
+            audioSource.PlayOneShot(clips[Random.Range(0, clips.Length)]);
         }
     }
 }

@@ -140758,6 +140758,10 @@ PrefabInstance:
       propertyPath: _centerEyeCamera
       value: 
       objectReference: {fileID: 1958093351}
+    - target: {fileID: 3903482225804038116, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3903482227020464136, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -214353,7 +214357,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430528025}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1430528027
 Camera:
   m_ObjectHideFlags: 0
@@ -214361,7 +214365,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430528025}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -306275,7 +306279,7 @@ GameObject:
   - component: {fileID: 1894093353}
   - component: {fileID: 1894093354}
   m_Layer: 0
-  m_Name: ExposureFinish
+  m_Name: FallZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -306290,8 +306294,8 @@ Transform:
   m_GameObject: {fileID: 1894093351}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -5.3, z: -33.9}
-  m_LocalScale: {x: 20, y: 1, z: 200}
+  m_LocalPosition: {x: 0, y: -4, z: -37}
+  m_LocalScale: {x: 20, y: 5, z: 210}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1897301798}
