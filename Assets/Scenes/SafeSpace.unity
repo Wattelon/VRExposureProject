@@ -42038,7 +42038,7 @@ MonoBehaviour:
   m_MovementSpeedVariancePercentage: 0
   m_SnapOnEnable: 1
   m_PositionFollowMode: 1
-  m_MinDistanceAllowed: 0.01
+  m_MinDistanceAllowed: 0.1
   m_MaxDistanceAllowed: 1.5
   m_TimeUntilThresholdReachesMaxDistance: 3
   m_RotationFollowMode: 1
@@ -68839,7 +68839,7 @@ MonoBehaviour:
   m_MovementSpeedVariancePercentage: 0
   m_SnapOnEnable: 1
   m_PositionFollowMode: 1
-  m_MinDistanceAllowed: 0.01
+  m_MinDistanceAllowed: 0.1
   m_MaxDistanceAllowed: 1.5
   m_TimeUntilThresholdReachesMaxDistance: 3
   m_RotationFollowMode: 1
@@ -71673,7 +71673,7 @@ MonoBehaviour:
   m_MovementSpeedVariancePercentage: 0
   m_SnapOnEnable: 1
   m_PositionFollowMode: 1
-  m_MinDistanceAllowed: 0.01
+  m_MinDistanceAllowed: 0.25
   m_MaxDistanceAllowed: 3
   m_TimeUntilThresholdReachesMaxDistance: 3
   m_RotationFollowMode: 0
@@ -82629,6 +82629,10 @@ PrefabInstance:
     - target: {fileID: 1777071345865798372, guid: 84ee3d8c86d9db84bb1e29c0443a694c, type: 3}
       propertyPath: m_Name
       value: SceneTransitionManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777071345865798372, guid: 84ee3d8c86d9db84bb1e29c0443a694c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5185147886487660884, guid: 84ee3d8c86d9db84bb1e29c0443a694c, type: 3}
       propertyPath: m_LocalPosition.x

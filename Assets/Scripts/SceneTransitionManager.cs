@@ -12,7 +12,7 @@ public class SceneTransitionManager : MonoBehaviour
 
     private void Awake()
     {
-        _meshRenderer = GetComponent<MeshRenderer>();
+        _meshRenderer = GetComponentInChildren<MeshRenderer>();
         Instance = this;
     }
 
@@ -27,6 +27,7 @@ public class SceneTransitionManager : MonoBehaviour
         if (asyncOperation is null) return;
         asyncOperation.allowSceneActivation = false;
 
+        _meshRenderer.gameObject.SetActive(true);
         StartCoroutine(Fade(false));
         StartCoroutine(TransitionRoutine(asyncOperation));
     }
@@ -51,5 +52,7 @@ public class SceneTransitionManager : MonoBehaviour
             _meshRenderer.material.color = fadeColor;
             yield return null;
         }
+        
+        if (fadeIn) _meshRenderer.gameObject.SetActive(false);
     }
 }

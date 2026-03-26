@@ -1522,7 +1522,7 @@ MonoBehaviour:
   m_MovementSpeedVariancePercentage: 0
   m_SnapOnEnable: 1
   m_PositionFollowMode: 1
-  m_MinDistanceAllowed: 0.01
+  m_MinDistanceAllowed: 0.1
   m_MaxDistanceAllowed: 1.25
   m_TimeUntilThresholdReachesMaxDistance: 3
   m_RotationFollowMode: 1
@@ -3306,7 +3306,7 @@ MonoBehaviour:
   m_MovementSpeedVariancePercentage: 0
   m_SnapOnEnable: 1
   m_PositionFollowMode: 1
-  m_MinDistanceAllowed: 0.01
+  m_MinDistanceAllowed: 0.1
   m_MaxDistanceAllowed: 0.75
   m_TimeUntilThresholdReachesMaxDistance: 3
   m_RotationFollowMode: 1
