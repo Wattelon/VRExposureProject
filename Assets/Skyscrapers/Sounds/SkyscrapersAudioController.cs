@@ -31,19 +31,6 @@ public class SkyscrapersAudioController : MonoBehaviour
     [Tooltip("Radius from the center of the bridge at which the strong wind is 0% volume.")]
     [SerializeField] private float maxDistance;
 
-    [Header("Walking sounds")]
-    [SerializeField] private AudioSource stepsSource;
-    [Range(0f, 1f)]
-    [SerializeField] private float stepsSourceVolume;
-
-    [SerializeField] private float stepDistance;
-
-    [SerializeField] private PhysicsMaterial concretePhysicsMaterial;
-    [SerializeField] private AudioClip[] concreteStepClips;
-
-    [SerializeField] private PhysicsMaterial glassPhysicsMaterial;
-    [SerializeField] private AudioClip[] glassStepClips;
-
     void Start()
     {
         cityAmbiance.Play();
@@ -57,7 +44,6 @@ public class SkyscrapersAudioController : MonoBehaviour
         if (player == null || bridge == null) return;
 
         updateSoundAmbiance();
-        footstepsHandler();
     }
 
     void updateSoundAmbiance()
@@ -69,43 +55,6 @@ public class SkyscrapersAudioController : MonoBehaviour
         normalWind.volume = (1f - t) * normalWindVolume;
         trafficSound.volume = (1f - t * 0.5f) * trafficSoundVolume;
         cityAmbiance.volume = cityAmbianceVolume;
-
-        stepsSource.volume = stepsSourceVolume;
-    }
-
-    private Vector3 previousStep;
-    private float distanceTravelled = 0;
-    private void footstepsHandler()
-    {
-        Vector3 playerPos = new Vector3(player.position.x, 0, player.position.z);
-        Vector3 previousPos = new Vector3(previousStep.x, 0, previousStep.z);
-
-        distanceTravelled += Vector3.Distance(playerPos, previousPos);
-        previousStep = player.position;
-
-        if (distanceTravelled < stepDistance) return;
-
-        PlayFootstep(2f);
-        distanceTravelled = 0;
-    }
-
-    private void PlayFootstep(float raycastLength)
-    {
-        RaycastHit hit;
-        if (Physics.Raycast(player.position, Vector3.down, out hit, raycastLength))
-        {
-            PhysicsMaterial surfacePhysicsMaterial = hit.collider.sharedMaterial;
-            if (surfacePhysicsMaterial == null) return;
-
-            AudioClip[] clips = null;
-            if (surfacePhysicsMaterial == concretePhysicsMaterial)
-                clips = concreteStepClips;
-            else if (surfacePhysicsMaterial == glassPhysicsMaterial)
-                clips = glassStepClips;
-
-            stepsSource.pitch = UnityEngine.Random.Range(0.8f, 1.2f);
-            stepsSource.PlayOneShot(clips[UnityEngine.Random.Range(0, clips.Length)]);
-        }
     }
 
     void OnDrawGizmosSelected()
