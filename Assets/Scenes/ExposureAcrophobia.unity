@@ -304788,8 +304788,6 @@ GameObject:
   - component: {fileID: 1897301797}
   - component: {fileID: 1897301796}
   - component: {fileID: 1897301794}
-  - component: {fileID: 1897301800}
-  - component: {fileID: 1897301799}
   m_Layer: 0
   m_Name: Glass Bridge
   m_TagString: Untagged
@@ -304892,48 +304890,6 @@ Transform:
   - {fileID: 662502910}
   m_Father: {fileID: 1849685521}
   m_LocalEulerAnglesHint: {x: 0, y: 15.5, z: 0}
---- !u!65 &1897301799
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1897301793}
-  m_Material: {fileID: 13400000, guid: 4856f519d7596e64ea2a00a03756bbee, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2, y: 10, z: 200.06142}
-  m_Center: {x: 2, y: 0.049442768, z: -37.53631}
---- !u!65 &1897301800
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1897301793}
-  m_Material: {fileID: 13400000, guid: 4856f519d7596e64ea2a00a03756bbee, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2, y: 10, z: 198.94507}
-  m_Center: {x: -2, y: 0.049442768, z: -37.217987}
 --- !u!1001 &1902293022
 PrefabInstance:
   m_ObjectHideFlags: 0
