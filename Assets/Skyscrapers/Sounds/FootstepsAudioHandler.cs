@@ -39,13 +39,10 @@ public class FootstepsAudioHandler : MonoBehaviour
 
     private void PlayFootstep()
     {
-        var rayStart = transform.position + Vector3.up * 0.5f;
-        Debug.DrawRay(rayStart, Vector3.down * raycastLength, Color.red, 1f);
-
-        if (Physics.Raycast(rayStart, Vector3.down, out var hit, raycastLength))
+        if (Physics.Raycast(player.position, Vector3.down, out var hit, raycastLength))
         {
             var surfaceMat = hit.collider.sharedMaterial;
-            if (surfaceMat == null) return;
+            if (surfaceMat is null) return;
 
             AudioClip[] clips = null;
             foreach (var mapping in audioMappings)
