@@ -23,19 +23,20 @@ public class SceneTransitionManager : MonoBehaviour
 
     public void TransitionToScene(string sceneName)
     {
-        var asyncOperation = SceneManager.LoadSceneAsync(sceneName);
-        if (asyncOperation is null) return;
-        asyncOperation.allowSceneActivation = false;
+        //var asyncOperation = SceneManager.LoadSceneAsync(sceneName);
+        //if (asyncOperation is null) return;
+        //asyncOperation.allowSceneActivation = false;
 
         _meshRenderer.gameObject.SetActive(true);
         StartCoroutine(Fade(false));
-        StartCoroutine(TransitionRoutine(asyncOperation));
+        StartCoroutine(TransitionRoutine(sceneName));
     }
 
-    private IEnumerator TransitionRoutine(AsyncOperation asyncOperation)
+    private IEnumerator TransitionRoutine(string sceneName)
     {
         while (_meshRenderer.material.color.a < 1f) yield return null;
-        asyncOperation.allowSceneActivation = true;
+        SceneManager.LoadScene(sceneName);
+        //asyncOperation.allowSceneActivation = true;
     }
 
     private IEnumerator Fade(bool fadeIn)
@@ -52,7 +53,9 @@ public class SceneTransitionManager : MonoBehaviour
             _meshRenderer.material.color = fadeColor;
             yield return null;
         }
-        
+
+        fadeColor.a = finish;
+        _meshRenderer.material.color = fadeColor;
         if (fadeIn) _meshRenderer.gameObject.SetActive(false);
     }
 }
