@@ -24,7 +24,11 @@ public class SkyscrapersAudioController : MonoBehaviour
     [SerializeField] private float strongWindVolume;
 
     [Header("Threshold points")]
+    [Tooltip("Shows two spheres: the strong wind volume rises the closer the listener is to the red sphere.")]
+    [SerializeField] private bool showGizmos = false;
+    [Tooltip("Radius from the center of the bridge at which the strong wind is 100% volume.")]
     [SerializeField] private float minDistance;
+    [Tooltip("Radius from the center of the bridge at which the strong wind is 0% volume.")]
     [SerializeField] private float maxDistance;
 
     [Header("Walking sounds")]
@@ -106,7 +110,7 @@ public class SkyscrapersAudioController : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        if (bridge == null) return;
+        if (bridge == null || !showGizmos) return;
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(bridge.position, maxDistance);
