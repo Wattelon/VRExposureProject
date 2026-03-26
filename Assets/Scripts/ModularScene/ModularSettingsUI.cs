@@ -12,6 +12,8 @@ namespace ModularScene
         [SerializeField] private List<Toggle> gameObjectModulesToggles;
         [SerializeField] private Toggle treesToggle;
         [SerializeField] private Button confirmButton;
+        
+        private const string SafeSpaceSceneName = "SafeSpace";
 
         private void Start()
         {
@@ -53,7 +55,7 @@ namespace ModularScene
             };
             
             ModularSceneSettingsManager.Save(settings);
-            SceneManager.LoadScene("SafeSpace");
+            SceneTransitionManager.Instance.TransitionToScene(SafeSpaceSceneName);
         }
         
         private void OnSafeSpaceSceneToggleValueChanged(bool isOn)

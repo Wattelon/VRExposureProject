@@ -5,7 +5,7 @@ public class SafeSpaceUI : MonoBehaviour
 {
     public void LoadExposureScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneTransitionManager.Instance.TransitionToScene(sceneName);
     }
 
     public void ToggleMeditation(GameObject meditation)
