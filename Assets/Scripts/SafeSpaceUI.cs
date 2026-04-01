@@ -1,8 +1,10 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SafeSpaceUI : MonoBehaviour
 {
+    [SerializeField] private Color inactiveColor;
+    
     public void LoadExposureScene(string sceneName)
     {
         SceneTransitionManager.Instance.TransitionToScene(sceneName);
@@ -11,5 +13,10 @@ public class SafeSpaceUI : MonoBehaviour
     public void ToggleMeditation(GameObject meditation)
     {
         meditation.SetActive(!meditation.activeSelf);
+    }
+
+    public void ToggleMeditationColor(Image toggleImage)
+    {
+        toggleImage.color = toggleImage.color == inactiveColor ? Color.white : inactiveColor;
     }
 }
