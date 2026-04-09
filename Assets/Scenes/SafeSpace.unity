@@ -3468,11 +3468,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 436820, guid: 40fa80823110ef94d8a2e11f2cfdad17, type: 3}
   m_PrefabInstance: {fileID: 124462974}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &124462976 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2374048, guid: 40fa80823110ef94d8a2e11f2cfdad17, type: 3}
-  m_PrefabInstance: {fileID: 124462974}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &125457487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12137,11 +12132,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 436820, guid: 40fa80823110ef94d8a2e11f2cfdad17, type: 3}
   m_PrefabInstance: {fileID: 406507567}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &406507569 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2374048, guid: 40fa80823110ef94d8a2e11f2cfdad17, type: 3}
-  m_PrefabInstance: {fileID: 406507567}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &407075743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14380,15 +14370,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5867260472498348380, guid: 40c601666244c434eb6c77f87c2d0ace, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.015
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 5867260472498348380, guid: 40c601666244c434eb6c77f87c2d0ace, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.015
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 5867260472498348380, guid: 40c601666244c434eb6c77f87c2d0ace, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.015
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 5867260472498348380, guid: 40c601666244c434eb6c77f87c2d0ace, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21536,6 +21526,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 428734, guid: dea143c643c6e9e438bae12778a82d09, type: 3}
   m_PrefabInstance: {fileID: 511400504}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &511400506 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2307082, guid: dea143c643c6e9e438bae12778a82d09, type: 3}
+  m_PrefabInstance: {fileID: 511400504}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &518120549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22061,11 +22056,6 @@ PrefabInstance:
 --- !u!4 &545524473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 453638, guid: 050bf261ab7fc4a42824c7d886f39651, type: 3}
-  m_PrefabInstance: {fileID: 545524472}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &545524474 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2391332, guid: 050bf261ab7fc4a42824c7d886f39651, type: 3}
   m_PrefabInstance: {fileID: 545524472}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &552163167
@@ -25785,10 +25775,10 @@ MonoBehaviour:
   m_FollowInLocalSpace: 0
   m_ApplyTargetInLocalSpace: 0
   m_MovementSpeed: 3
-  m_MovementSpeedVariancePercentage: 0
+  m_MovementSpeedVariancePercentage: 0.25
   m_SnapOnEnable: 1
   m_PositionFollowMode: 1
-  m_MinDistanceAllowed: 0.01
+  m_MinDistanceAllowed: 0.1
   m_MaxDistanceAllowed: 1.5
   m_TimeUntilThresholdReachesMaxDistance: 3
   m_RotationFollowMode: 1
@@ -27560,6 +27550,7 @@ Transform:
   m_Children:
   - {fileID: 1645623578}
   - {fileID: 1965520699}
+  - {fileID: 1191256503}
   - {fileID: 1246849564}
   - {fileID: 53156229}
   - {fileID: 1290433007}
@@ -28203,6 +28194,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 1724744474}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1191575361}
+        m_TargetAssemblyTypeName: SafeSpaceUI, Assembly-CSharp
+        m_MethodName: ToggleMeditationColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 697817467}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32811,11 +32814,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 453638, guid: 050bf261ab7fc4a42824c7d886f39651, type: 3}
   m_PrefabInstance: {fileID: 828289839}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &828289841 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2391332, guid: 050bf261ab7fc4a42824c7d886f39651, type: 3}
-  m_PrefabInstance: {fileID: 828289839}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &836513669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36377,11 +36375,6 @@ PrefabInstance:
 --- !u!4 &904569318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5867260472498348380, guid: 40c601666244c434eb6c77f87c2d0ace, type: 3}
-  m_PrefabInstance: {fileID: 904569317}
-  m_PrefabAsset: {fileID: 0}
---- !u!137 &904569319 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 3167878196707139264, guid: 40c601666244c434eb6c77f87c2d0ace, type: 3}
   m_PrefabInstance: {fileID: 904569317}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &909750438
@@ -42031,11 +42024,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.UI.LazyFollow
   m_Target: {fileID: 0}
-  m_TargetOffset: {x: 0.5, y: 0, z: 0.5}
+  m_TargetOffset: {x: 0.5, y: -0.1, z: 0.5}
   m_FollowInLocalSpace: 0
   m_ApplyTargetInLocalSpace: 0
   m_MovementSpeed: 3
-  m_MovementSpeedVariancePercentage: 0
+  m_MovementSpeedVariancePercentage: 0.25
   m_SnapOnEnable: 1
   m_PositionFollowMode: 1
   m_MinDistanceAllowed: 0.1
@@ -48183,6 +48176,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 430328, guid: 132a25d4eb93c1b4ea811eef1e9b0aca, type: 3}
   m_PrefabInstance: {fileID: 1190443937}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1191256502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 684423140}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e29e12a7b47e37243ad12b4704c9f239, type: 2}
+    - target: {fileID: 919132149155446097, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_Name
+      value: Terrain Mesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+--- !u!4 &1191256503 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: eeb586939711c6c4d97a73d3b9dc41d5, type: 3}
+  m_PrefabInstance: {fileID: 1191256502}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1191575359
 GameObject:
   m_ObjectHideFlags: 0
@@ -48233,6 +48296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd1aa9cd5f900104f86834233e3515ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SafeSpaceUI
+  inactiveColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
 --- !u!114 &1191575362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50109,11 +50173,6 @@ PrefabInstance:
 --- !u!4 &1237503210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 442818, guid: 3242f14afa5535b4d8cad2fd038a4ee2, type: 3}
-  m_PrefabInstance: {fileID: 1237503209}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &1237503211 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2357232, guid: 3242f14afa5535b4d8cad2fd038a4ee2, type: 3}
   m_PrefabInstance: {fileID: 1237503209}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1238109686
@@ -68592,7 +68651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: groundingObjects.Array.size
-      value: 22
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[0]'
@@ -68637,47 +68696,47 @@ PrefabInstance:
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[10]'
       value: 
-      objectReference: {fileID: 904569319}
+      objectReference: {fileID: 1603450848}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[11]'
       value: 
-      objectReference: {fileID: 1603450848}
+      objectReference: {fileID: 1465877682}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[12]'
       value: 
-      objectReference: {fileID: 1465877682}
+      objectReference: {fileID: 657868052}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[13]'
       value: 
-      objectReference: {fileID: 828289841}
+      objectReference: {fileID: 511400506}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[14]'
       value: 
-      objectReference: {fileID: 545524474}
+      objectReference: {fileID: 817247560}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[15]'
       value: 
-      objectReference: {fileID: 1759653356}
+      objectReference: {fileID: 817247560}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[16]'
       value: 
-      objectReference: {fileID: 657868052}
+      objectReference: {fileID: 817247560}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[17]'
       value: 
-      objectReference: {fileID: 2090036882}
+      objectReference: {fileID: 817247560}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[18]'
       value: 
-      objectReference: {fileID: 124462976}
+      objectReference: {fileID: 817247560}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[19]'
       value: 
-      objectReference: {fileID: 406507569}
+      objectReference: {fileID: 817247560}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[20]'
       value: 
-      objectReference: {fileID: 1237503211}
+      objectReference: {fileID: 817247560}
     - target: {fileID: 3976722677338414285, guid: 97bcaf3b0b945db4484b638fc106548d, type: 3}
       propertyPath: 'groundingObjects.Array.data[21]'
       value: 
@@ -68832,11 +68891,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.UI.LazyFollow
   m_Target: {fileID: 0}
-  m_TargetOffset: {x: -0.5, y: 0, z: 0.5}
+  m_TargetOffset: {x: -0.5, y: -0.1, z: 0.5}
   m_FollowInLocalSpace: 0
   m_ApplyTargetInLocalSpace: 0
   m_MovementSpeed: 3
-  m_MovementSpeedVariancePercentage: 0
+  m_MovementSpeedVariancePercentage: 0.25
   m_SnapOnEnable: 1
   m_PositionFollowMode: 1
   m_MinDistanceAllowed: 0.1
@@ -69869,11 +69928,6 @@ PrefabInstance:
 --- !u!4 &1759653355 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 436820, guid: 40fa80823110ef94d8a2e11f2cfdad17, type: 3}
-  m_PrefabInstance: {fileID: 1759653354}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &1759653356 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2374048, guid: 40fa80823110ef94d8a2e11f2cfdad17, type: 3}
   m_PrefabInstance: {fileID: 1759653354}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1772086473
@@ -71609,7 +71663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6926906167359508983, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
       propertyPath: m_Name
-      value: BreathingPractice
+      value: MeditationBreathing
       objectReference: {fileID: 0}
     - target: {fileID: 6926906167359508983, guid: 99de803191f85944cbc6cd6a71ba9cd6, type: 3}
       propertyPath: m_IsActive
@@ -71670,7 +71724,7 @@ MonoBehaviour:
   m_FollowInLocalSpace: 0
   m_ApplyTargetInLocalSpace: 0
   m_MovementSpeed: 3
-  m_MovementSpeedVariancePercentage: 0
+  m_MovementSpeedVariancePercentage: 0.25
   m_SnapOnEnable: 1
   m_PositionFollowMode: 1
   m_MinDistanceAllowed: 0.25
@@ -71994,23 +72048,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1011230844419443825, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1011230844419443825, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1011230844419443825, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1011230844419443825, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 31.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1011230844419443825, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -7.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1102655235888246740, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_Pivot.x
@@ -72094,27 +72148,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1841319564383312518, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1841319564383312518, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1841319564383312518, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 70
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1841319564383312518, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1841319564383312518, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1841319564383312518, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -12.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2957255366042771372, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_Name
@@ -72122,31 +72176,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2957255366042771372, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7248069602877269076, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7248069602877269076, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7248069602877269076, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 31.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7248069602877269076, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7248069602877269076, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 15.55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7248069602877269076, guid: 859efe738b8389d449b9624846fe8ff5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -7.5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -77051,7 +77105,7 @@ Terrain:
   m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 0
-  m_DrawHeightmap: 1
+  m_DrawHeightmap: 0
   m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
@@ -77793,6 +77847,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 739404990}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1191575361}
+        m_TargetAssemblyTypeName: SafeSpaceUI, Assembly-CSharp
+        m_MethodName: ToggleMeditationColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1987055025}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -81270,11 +81336,6 @@ PrefabInstance:
 --- !u!4 &2090036881 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 459726, guid: 20ba0f58892576744bc20f67911d3058, type: 3}
-  m_PrefabInstance: {fileID: 2090036880}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &2090036882 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2349124, guid: 20ba0f58892576744bc20f67911d3058, type: 3}
   m_PrefabInstance: {fileID: 2090036880}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2091413082
