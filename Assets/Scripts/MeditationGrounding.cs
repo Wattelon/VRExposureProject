@@ -34,9 +34,9 @@ public class MeditationGrounding : MonoBehaviour
         var randomGroundingObjects = new List<Renderer>();
         var activeObjects = groundingObjects.Where(groundingObject => groundingObject.gameObject.activeInHierarchy).ToList();
 
-        groundingObjectAmount = Mathf.Min(activeObjects.Count, groundingObjectAmount);
+        var currentGroundingObjectAmount = Mathf.Min(activeObjects.Count, groundingObjectAmount);
         
-        for (var i = 0; i < groundingObjectAmount; i++)
+        for (var i = 0; i < currentGroundingObjectAmount; i++)
         {
             var groundingObject = activeObjects[Random.Range(0, activeObjects.Count)];
             randomGroundingObjects.Add(groundingObject);
