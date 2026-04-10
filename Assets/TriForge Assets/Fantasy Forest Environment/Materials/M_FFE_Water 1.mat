@@ -133,7 +133,7 @@ Material:
     - _WaterColorBlend: 203.3
     - _WaterNormalSpeed: 1
     - _WaterOpacityBlend: 1.54
-    - _WaterSmoothness: 1
+    - _WaterSmoothness: 0.1
     - _WaterSpecularity: 0.025
     - _ZWrite: 1
     - __dirty: 0
