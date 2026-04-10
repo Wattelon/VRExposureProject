@@ -61,6 +61,11 @@ MonoBehaviour:
     audioClips:
     - {fileID: 8300000, guid: e3b908688e4ff9149bf21b5af2fa3b6d, type: 3}
     - {fileID: 8300000, guid: b62239598c97681489df6fd9ab5633b6, type: 3}
+  - name: Grass
+    physicsMaterial: {fileID: 13400000, guid: 4856f519d7596e64ea2a00a03756bbee, type: 2}
+    audioClips:
+    - {fileID: 8300000, guid: a5b0512af9d0b3a489c9271de65fee5c, type: 3}
+    - {fileID: 8300000, guid: 76601ebee6ec99648b9517e7bc90bf40, type: 3}
 --- !u!82 &8233064100016889584
 AudioSource:
   m_ObjectHideFlags: 0
