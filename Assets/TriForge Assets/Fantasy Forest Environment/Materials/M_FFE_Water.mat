@@ -100,9 +100,9 @@ Material:
     - _FoamOpacity: 1
     - _FoamScale: 1.5
     - _FresnelBias: 0
-    - _FresnelOpacityStrength: 0.918
+    - _FresnelOpacityStrength: 0.9
     - _FresnelPower: 0.6
-    - _FresnelScale: 1.53
+    - _FresnelScale: 1.5
     - _FresnelStrength: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -133,16 +133,16 @@ Material:
     - _WaterNormalSpeed: 1
     - _WaterOpacityBlend: 1.54
     - _WaterSmoothness: 1
-    - _WaterSpecularity: 0.27
+    - _WaterSpecularity: 0.25
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.34285614, g: 0.38679248, b: 0.18792278, a: 1}
-    - _DeepColor: {r: 0.0971872, g: 0.22641462, b: 0.19410777, a: 1}
+    - _DeepColor: {r: 0.097187154, g: 0.22641459, b: 0.19410774, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
-    - _ShallowColor: {r: 0.098038994, g: 0.22745076, b: 0.19215664, a: 0}
+    - _ShallowColor: {r: 0.098038875, g: 0.22745064, b: 0.19215652, a: 0.8627451}
     - _WaterDeepColor: {r: 0.6226415, g: 0.76909417, b: 0.8301887, a: 1}
     - _WaterShallowColor: {r: 0.6462264, g: 0.8847502, b: 1, a: 1}
   m_BuildTextureStacks: []

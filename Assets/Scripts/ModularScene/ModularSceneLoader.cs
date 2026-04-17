@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,9 +17,11 @@ namespace ModularScene
                 sceneGameObjectsModules[i].SetActive(settings.SceneGameObjectModules[i]);
             }
 
-            if (settings.TreesModule) return;
+            if (!settings.SceneGameObjectModules[3]) terrain.detailObjectDistance = 80f;
+
+            /*if (settings.TreesModule) return;
             terrain.terrainData = Instantiate(terrain.terrainData);
-            terrain.terrainData.SetTreeInstances(Array.Empty<TreeInstance>(), false);
+            terrain.terrainData.SetTreeInstances(Array.Empty<TreeInstance>(), false);*/
         }
     }
 }
