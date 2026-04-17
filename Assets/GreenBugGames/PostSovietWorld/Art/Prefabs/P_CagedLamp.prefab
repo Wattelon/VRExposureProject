@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
@@ -115,6 +116,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_CagedLamp
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 8058091345753873213}
     - target: {fileID: 7218042680710082022, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -136,4 +157,14 @@ PrefabInstance:
       value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 2571279294847110579, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
+    - {fileID: -3029684137250861417, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
+--- !u!23 &8058091345753873213 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8106245778268759433, guid: 698bbaf246a05db41820cdc22f8d7452, type: 3}
+  m_PrefabInstance: {fileID: 6941387379626787146}
+  m_PrefabAsset: {fileID: 0}

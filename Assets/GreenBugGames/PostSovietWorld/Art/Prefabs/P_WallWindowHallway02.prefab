@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6432036546322720046, guid: b7cf340b540c7844d886b801e5348b41, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4552216356796299026, guid: b7cf340b540c7844d886b801e5348b41, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -71,6 +75,10 @@ PrefabInstance:
     - target: {fileID: -4552216356796299026, guid: b7cf340b540c7844d886b801e5348b41, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -1230975839746568564, guid: b7cf340b540c7844d886b801e5348b41, type: 3}
+      propertyPath: m_CastShadows
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b7cf340b540c7844d886b801e5348b41, type: 3}
       propertyPath: m_Name

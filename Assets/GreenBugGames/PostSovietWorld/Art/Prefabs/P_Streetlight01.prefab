@@ -173,7 +173,7 @@ Light:
   serializedVersion: 12
   m_Type: 0
   m_Color: {r: 0.990566, g: 0.79768115, b: 0.53733534, a: 1}
-  m_Intensity: 150
+  m_Intensity: 400
   m_Range: 10
   m_SpotAngle: 92.98703
   m_InnerSpotAngle: 58.116886
@@ -427,7 +427,7 @@ Light:
   serializedVersion: 12
   m_Type: 0
   m_Color: {r: 0.990566, g: 0.79768115, b: 0.53733534, a: 1}
-  m_Intensity: 2500
+  m_Intensity: 2000
   m_Range: 10
   m_SpotAngle: 44.168835
   m_InnerSpotAngle: 40.68182
@@ -565,6 +565,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7997c837bb3b4f4da4db0002bdb7c2b, type: 3}
       propertyPath: m_Name
       value: SM_Streetlight01_LOD3_Atlas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7997c837bb3b4f4da4db0002bdb7c2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
